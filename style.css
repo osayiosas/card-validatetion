@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    background: linear-gradient(to bottom, rgba(0, 0, 0.9), rgba(255, 255, 255, 0.5)), url(img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+#main_header {
+    background: linear-gradient(to bottom, rgba(2, 2, 2,.1), rgba(2, 2, 2, 0.4));
+    height: inherit;
+    width: 90%;
+    padding: 1rem;
+    color: red;
+}
+#main_header img {
+    margin-left: 16rem;
+    margin-top: -3.5rem;
+}
+#container {
+    background: rgba(2, 2, 2,0.5);
+    height: 500px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+}
+#container2 {
+    text-align: center;
+    padding-top: 15px;
+    background: rgba(2, 2, 2,0.5);
+    height: 500px;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    float: right;
+}
+td {
+    padding: 10px;
+}
+#message {
+    margin-top: 20px;
+    border: solid red 1px;
+    width: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: ease-in 1s;
+    color: red;
+    display: none;
+    font-weight: bolder;
+}
+input[type=text] {
+    width: 40%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    transition: ease-out 1s;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border-color:white;
+}
+input[type=text]:hover {
+    width: 50%;
+    font-size: 15px;
+}
+input[type=button] {
+    width: 100px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    transition: ease-out 1s;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-color: transparent;
+    cursor: pointer;
+}
+input[type=reset] {
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    transition: ease-out 1s;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-color: transparent;
+    float: right;
+}
+input[type=button]:hover {
+    background-color: darkgreen;
+    width: 120px;
+}
+input[type=reset]:hover {
+    background-color: darkred;
+    width: 120px;
+}
+#note {
+    margin-top: 2px;
+    text-align: left;
+    padding: 20px;
+    border: solid white .5px;
+    border-radius: 20px;
+    width: 80%;
+}
+ul {
+    margin-left: 20px;
+}
+#table_list {
+    border: solid wheat 2px;
+    border-radius: 20px;
+    height: 25rem;
+    width: 80%;
+}
+#Validated_card {
+    display: inline-grid;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    float: left;
+    font-size: 20px;
+}
+#alidated_card li {
+    padding: 10px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterCard Validation</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="shortcut icon" href="we.svg" type="image/x-icon">
+    
+</head>
+
+<nav id="main_header"> 
+    <h1>MasterCard Validation</h1>
+    <img src="icons8-mastercard-96 (1).png" alt="logo">
+    <small style="float: right;color:white;">Idiaghe osaigbovo.E <br>
+    borden 101 #cant sleep</small>    
+</nav>
+
+<div id="container">		
+    <form>
+        <table>
+            <tr><h1>Validate your card</h1></tr><br>
+            <tr>
+                <input type="text" maxlength="20" placeholder="Enter card number" required id="input_text">
+             </tr>
+            <tr>
+                <td><input type="button" name="button" value="Validate" onclick="validate()" ></td>
+                <td><input type="reset" name="reset" value="Clear"></td>
+            </tr>
+            <tr><center><p id="message">Invalid Card Number</p></center></tr>
+        </table>
+    </form>
+    <div id="note">
+        <center>
+        <img src="log.png" height="30" width="30">
+    </center>
+        <blockquote>
+            <small>Enter the number seperated by space or. <br>Eg. 4444-4444-4444-4444 or 4444 4444 4444 4444 <br></small><br>
+            Note that this validates all cards ranging from <br>
+            <ul id="cards">
+                <li>MasterCard</li>
+                <li>Visa</li>
+                <li>Others</li>
+            </ul>
+            
+        </blockquote>
+    </div>
+        
+    
+</div>
+<div id="container2">
+    <button id="add" style="display: none;" onclick="addItem()"></button>
+    <h1>List of validated cards</h1><br>
+    <div id="table_list">
+            
+            <ol id="validated_card">
+            </ol>
+    </div>
+    
+</div>
+
+
+<script src="App.js"></script>
+<body> 
+</body>
+</html>
