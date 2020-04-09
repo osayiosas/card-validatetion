@@ -1,1 +1,1 @@
-# card-validatetion
+# card-validatetion using HTML/CSS and Javascript
